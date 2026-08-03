@@ -100,6 +100,15 @@ Useful options:
 
 Run `./slack_claude_runner.py --help` for the full list.
 
+## 2a. Run the tests
+
+The repo includes a small `unittest` suite for the parsing and trigger helper
+logic:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
 ## 3. Run it in the background
 
 ### Cron
